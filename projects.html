@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projects</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button type="button" class="top hide-for-small-only"><a href="#Top">Top</a></button>
+    <!-- main content within a `grid-container` -->
+    <div class="grid-container">
+
+        <!-- Top text -->
+        <div class="grid-x grid-padding-x" id="#Top">
+            <div class="cell large-12" style="background-color:goldenrod"><center><h1>Projects</h1></center></div>
+        </div>  
+
+        <!--Images -->
+        
+        <!--Menu Bar-->
+        <div class="grid-x grid-padding-x menu">
+            <div class="medium-2 large-2"></div>
+            
+            <div class="small-6 medium-2 large-2"><a href="/index.html"><u>Home</u></a></div>
+            
+            <div class="small-6 medium-2 large-2"><a href="/projects.html"><u>Projects</u></a></div>
+            
+            <div class="small-6 medium-2 large-2"><a href="/resume.html"><u>Resume</u></a></div>
+
+            <div class="small-6 medium-2 large-2"><a href="/fun.html"><u>Fun</u></a></div>
+
+        </div>
+        <hr />
+        <br />
+        <br />
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 medium-12 large-12 extraMargin">
+                <h2>About this page</h2>
+                <div class="border">
+                    <p>These are some projects I have worked on throughout my studies as a Computer
+                        Science Student. Through these projects I have gained a broader understanding of
+                        different aspects of Computer Science and have a more thorough understanding of the
+                        importance of Computers and technology in our era.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <hr />
+        <!--Project descriptions-->
+        <div class="grid-x grid-padding-x extraMargin">
+            <div class="cell medium-12 large-12">
+                <u><h2 class="center-text">TommieCoin</h2></u>
+            </div>
+
+            <div class="cell medium-12 large-12">
+                <center><img src="bitcoin.png" class="padding-image" alt="Bitcoin image"></center>
+            </div>
+                
+                <div class="border">
+                    <p> 
+                        In the TommieCoin Project, which is based off Bitcoin, we were expected to create a wallet where a selection of users
+                        could see their balance of TommieCoins, pay TommieCoins to some other user and mine new TommieCoins which will be added to the blockchain.
+                        We were expected to create this wallet ourself, while the professor provided a TommieCoin server that
+                        our wallet would interact with. The code was written in python, but we used python dictionaries and json to send
+                        and gather information to the server. The purpose of this project was to get a better understanding of how
+                        Bitcoin works in the background and to get a general understanding of how cryptocurruncies and blockchains work.
+                    </p>
+                </div>
+                <div class="cell medium-12 large-12">
+                    <u><h2 class="center-text">Pipeline Simulator</h2></u>
+                </div>
+
+                <div class="cell medium-12 large-12">
+                    <center><img src="pipeline.png" class="padding-image" alt="Bitcoin image"> </center>
+                </div>
+            </div>
+                <div class="border">
+                    <p>
+                        This project was working with our classes UST-3400 Assembly language. Our
+                        previous projects which were Single and Multi-cycle simulators were shown to be inefficient, so the point 
+                        of this project was to create a Pipeline simulator that would be able to do 5 seperate steps, these included 
+                        Fetch, Decode, Execute, Memory and Writeback. While one stage was being used the pipeline could do another task
+                        simultanesouly in a different part of the pipeline. This was to increase our throughput and performance drastically
+                        for our simulator and to get an understanding of how a pipeline works.
+                    </p>
+                </div>
+                <div class="cell medium-12 large-12">
+                    <u><h2 class="center-text">Password Brute Force List</h2></u>
+                </div>
+                <div class="cell medium-12 large-12">
+                    <center><img src="brute.jpg" class="padding-image" alt="Bitcoin image"></center>
+                </div>
+                <div class="border">
+                    <p>
+                            In this project we had to create seperate scripts that could break different types of security
+                            for passwords. This involved hashed passwords, salted hashed passwords, etc. These programs had to
+                            run through massive passwords list and hash and salt them in a way so they could be compared to the 
+                            compromised passwords list. The goal of this project was to show the importance of having secure passswords
+                            and ways to slow down attackers who may try to use similar scripts. 
+
+                    </p>
+                </div>
+            
+            
+        </div>
+
+        <br />
+        <hr />
+        
+    </div>
+    <!-- include before closing </body> tag -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+    $(document).foundation();
+</script>
+</body>
+</html>
